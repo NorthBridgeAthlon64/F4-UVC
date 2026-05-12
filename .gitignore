@@ -2,6 +2,14 @@
 Debug/
 Release/
 
+# CMake 构建目录
+build/
+build-cmake/
+cmake-build*/
+
+# JetBrains / CLion
+.idea/
+
 # 若编译产物落在仓库根目录
 *.elf
 *.map
