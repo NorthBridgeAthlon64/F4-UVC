@@ -25,8 +25,9 @@
 #include "usbd_desc.h"
 
 /* USER CODE BEGIN Includes */
-#include "usbd_uvc.h"
-#include "usbd_uvc_if.h"
+#include "usbd_cdc.h"
+#include "usbd_cdc_if.h"
+#include "usb_uvc_attach.h"
 /* USER CODE END Includes */
 
 /* USER CODE BEGIN PV */
@@ -71,12 +72,11 @@ void MX_USB_DEVICE_Init(void)
   {
     Error_Handler();
   }
-  // Register UVC class instead of CDC
-  if (USBD_RegisterClass(&hUsbDeviceFS, &USBD_UVC) != USBD_OK)
+  if (USBD_RegisterClass(&hUsbDeviceFS, &USBD_CDC) != USBD_OK)
   {
     Error_Handler();
   }
-  if (USBD_UVC_RegisterInterface(&hUsbDeviceFS, &USBD_UVC_fops_FS) != USBD_OK)
+  if (USBD_CDC_RegisterInterface(&hUsbDeviceFS, &USBD_Interface_fops_FS) != USBD_OK)
   {
     Error_Handler();
   }
@@ -86,7 +86,7 @@ void MX_USB_DEVICE_Init(void)
   }
 
   /* USER CODE BEGIN USB_DEVICE_Init_PostTreatment */
-
+  USB_AttachUVC_Stack();
   /* USER CODE END USB_DEVICE_Init_PostTreatment */
 }
 

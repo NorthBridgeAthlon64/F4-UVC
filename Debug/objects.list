@@ -13,6 +13,7 @@
 "./Core/Src/tim.o"
 "./Core/Src/tjpgd.o"
 "./Core/Src/usart.o"
+"./Core/Src/usb_uvc_attach.o"
 "./Core/Src/uvc_app.o"
 "./Core/Startup/startup_stm32f407zgtx.o"
 "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
