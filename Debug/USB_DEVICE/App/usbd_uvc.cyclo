@@ -1,0 +1,10 @@
+../USB_DEVICE/App/usbd_uvc.c:214:16:USBD_UVC_Init	3
+../USB_DEVICE/App/usbd_uvc.c:256:16:USBD_UVC_DeInit	3
+../USB_DEVICE/App/usbd_uvc.c:278:16:USBD_UVC_Setup	27
+../USB_DEVICE/App/usbd_uvc.c:397:16:USBD_UVC_DataIn	6
+../USB_DEVICE/App/usbd_uvc.c:444:16:USBD_UVC_DataOut	1
+../USB_DEVICE/App/usbd_uvc.c:451:16:USBD_UVC_EP0_RxReady	3
+../USB_DEVICE/App/usbd_uvc.c:464:17:USBD_UVC_GetFSCfgDesc	1
+../USB_DEVICE/App/usbd_uvc.c:472:17:USBD_UVC_GetDeviceQualifierDescriptor	1
+../USB_DEVICE/App/usbd_uvc.c:480:9:USBD_UVC_RegisterInterface	2
+../USB_DEVICE/App/usbd_uvc.c:492:9:USBD_UVC_TransmitFrame	8

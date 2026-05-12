@@ -1,0 +1,8 @@
+../Core/Src/dcmi.c:31:6:MX_DCMI_Init	8	static
+../Core/Src/dcmi.c:59:6:HAL_DCMI_MspInit	56	static
+../Core/Src/dcmi.c:148:6:HAL_DCMI_MspDeInit	16	static
+../Core/Src/dcmi.c:199:6:DCMI_DMA_Init	32	static
+../Core/Src/dcmi.c:248:6:DCMI_DMA_JPEG_Init	24	static
+../Core/Src/dcmi.c:274:6:DCMI_Start_JPEG	16	static
+../Core/Src/dcmi.c:326:6:DCMI_Start	8	static
+../Core/Src/dcmi.c:336:6:DCMI_Stop	4	static

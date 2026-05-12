@@ -1,0 +1,6 @@
+../USB_DEVICE/App/usbd_uvc_if.c:28:15:UVC_Init_FS	1
+../USB_DEVICE/App/usbd_uvc_if.c:35:15:UVC_DeInit_FS	1
+../USB_DEVICE/App/usbd_uvc_if.c:42:15:UVC_Control_FS	1
+../USB_DEVICE/App/usbd_uvc_if.c:49:15:UVC_StartStreaming_FS	1
+../USB_DEVICE/App/usbd_uvc_if.c:58:15:UVC_StopStreaming_FS	1
+../USB_DEVICE/App/usbd_uvc_if.c:67:9:UVC_Transmit_FS	1
