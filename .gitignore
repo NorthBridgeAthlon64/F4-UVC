@@ -1,0 +1,26 @@
+# STM32CubeIDE / GNU ARM 构建输出目录
+Debug/
+Release/
+
+# 若编译产物落在仓库根目录
+*.elf
+*.map
+*.list
+*.bin
+*.hex
+
+# 中间文件（根目录或其它路径下的散落产物）
+*.o
+*.obj
+*.d
+*.su
+*.cyclo
+
+# 预编译头 / 静态库缓存
+*.pch
+*.a
+
+# 日志与临时文件
+*.log
+*~
+*.bak
