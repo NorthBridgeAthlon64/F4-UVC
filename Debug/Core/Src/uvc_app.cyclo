@@ -1,9 +1,0 @@
-../Core/Src/uvc_app.c:42:6:UVC_App_Init	1
-../Core/Src/uvc_app.c:61:6:UVC_App_StartCapture	1
-../Core/Src/uvc_app.c:87:6:UVC_App_StopCapture	1
-../Core/Src/uvc_app.c:95:9:UVC_App_IsStreaming	1
-../Core/Src/uvc_app.c:102:6:UVC_App_SetStreaming	2
-../Core/Src/uvc_app.c:115:24:RGB888_to_RGB565	1
-../Core/Src/uvc_app.c:123:5:JPEG_DecodeToRGB565	3
-../Core/Src/uvc_app.c:149:13:Display_RGB565_Frame	2
-../Core/Src/uvc_app.c:166:6:UVC_App_Process	25

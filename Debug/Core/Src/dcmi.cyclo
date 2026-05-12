@@ -1,8 +1,0 @@
-../Core/Src/dcmi.c:31:6:MX_DCMI_Init	2
-../Core/Src/dcmi.c:59:6:HAL_DCMI_MspInit	3
-../Core/Src/dcmi.c:148:6:HAL_DCMI_MspDeInit	2
-../Core/Src/dcmi.c:199:6:DCMI_DMA_Init	2
-../Core/Src/dcmi.c:248:6:DCMI_DMA_JPEG_Init	1
-../Core/Src/dcmi.c:274:6:DCMI_Start_JPEG	7
-../Core/Src/dcmi.c:326:6:DCMI_Start	1
-../Core/Src/dcmi.c:336:6:DCMI_Stop	2
